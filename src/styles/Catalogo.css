@@ -1,0 +1,96 @@
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: PINK;
+    justify-content: space-around;
+}
+
+.Card {
+    margin-bottom: 40px;
+}
+
+.list-group-flush{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.5px pink;
+    font-size: 20px;
+}
+
+.home{
+    background-color: orangered;
+}
+
+.tarjeta{
+    -webkit-text-fill-color: black;
+    font-family: 'Agbalumo', cursive;
+}
+.novedades{
+    flex-direction: row;
+    background-color: pink;
+    justify-content: space-between;
+    font-family: 'Agbalumo', cursive;
+}
+.nov-titulo{
+    background-color: pink;
+}
+.contacto{
+    display: flex;
+    justify-content: space-around;
+}
+/* contacto */
+.formulario p{
+    display: flex;
+    justify-content: center;
+}
+.contactanos{
+    display: flex;
+    gap: 24px;
+    background-color: pink;
+}
+.contactanos div{
+    width: 100%;
+    font-family: 'Agbalumo', cursive;
+}
+.formulario p label{
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+}
+.formulario p:nth-child(4){
+    align-items: start;
+}
+.formulario p textarea{
+    min-width: 189px;
+    width: 70%;
+    height: 100px;
+}
+.datos{
+    border: 5px;
+    border-color: black;
+    border-radius: 3px;
+}
+.input{
+    width: 70%;
+}
+.datos2 p{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.consulta{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.flecha{
+    width: 20%;
+    margin-top: 50px;
+}
+.comprar{
+    background-color: black;
+    font-family: 'Agbalumo', cursive;
+    -webkit-text-fill-color: white;   
+}

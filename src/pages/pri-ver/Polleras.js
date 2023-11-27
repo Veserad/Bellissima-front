@@ -1,0 +1,174 @@
+import React from "react";
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
+import '../../styles/Catalogo.css'
+
+const Polleras = (props) =>{
+    return (
+        <div className="catalogo">
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera1.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 1</Card.Title>
+                    <Card.Text>
+                        $5.000
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera2.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 2</Card.Title>
+                    <Card.Text>
+                        $5.500
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera3.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 3</Card.Title>
+                    <Card.Text>
+                        $7.000
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera4.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 4</Card.Title>
+                    <Card.Text>
+                        $6.500
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera5.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 5</Card.Title>
+                    <Card.Text>
+                        $7.000
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera6.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 6</Card.Title>
+                    <Card.Text>
+                        $8.000
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera7.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 7</Card.Title>
+                    <Card.Text>
+                        $7.500
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera8.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 8</Card.Title>
+                    <Card.Text>
+                        $8.500
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+            <Card className='Card' style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="img/pri-ver/Pollera9.jpg" />
+                <Card.Body>
+                    <Card.Title>Pollera 9</Card.Title>
+                    <Card.Text>
+                        $9.000
+                    </Card.Text>
+                </Card.Body>
+                <ListGroup className="list-group-flush">
+                    <ListGroup.Item>$Varios Talles</ListGroup.Item>
+                    <ListGroup.Item>Distintos colores</ListGroup.Item>
+                    <ListGroup.Item>Tela a elección</ListGroup.Item>
+                </ListGroup>
+                <Card.Body>
+                    <button className="comprar" onClick={()=>{alert('Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito')}}>Añadir al carrito</button>
+                </Card.Body>
+            </Card>
+
+        </div>
+    );
+}
+export default Polleras;

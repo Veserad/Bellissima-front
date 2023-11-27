@@ -1,0 +1,44 @@
+.descuento{
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    max-block-size:150px;
+}
+.logo h1{
+    font-family: 'Agbalumo', cursive;
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    margin: 0;
+    /* color: rgb(156, 26, 145); */
+}
+.logo h1 a{
+    -webkit-text-fill-color: black;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.boton{
+    display: flex;
+    justify-content: right;
+    flex: end;
+    font-family: 'Agbalumo', cursive;
+}
+.boton h3{
+    -webkit-text-fill-color: pink !important;
+    display: block;
+}
+.boton a{
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.Nav{
+    background-color: pink;
+    border: 2px solid white;
+}
+.Nav ul{
+    list-style: none;
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    justify-content: space-between;
+    align-items: center;
+}
+.Nav ul li{
+    flex-grow: 1;
+}
+.Nav ul li a{
+    color: white;
+    background-color: pink;
+}
+.Nav ul li a:hover{
+    color: rgb(209, 131, 144);
+}
+#dropdown-basic{
+    background-color: pink;
+    border: 0;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
