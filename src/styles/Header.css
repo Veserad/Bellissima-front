@@ -19,7 +19,7 @@
     margin: 0;
     /* color: rgb(156, 26, 145); */
 }
-.logo h1 Link{
+.logo h1 a{
     -webkit-text-fill-color: black;
     text-decoration: none;
 }

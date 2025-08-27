@@ -30,8 +30,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter basename="/Bellissima-front">
+        <Header />
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />

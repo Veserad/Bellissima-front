@@ -77,11 +77,11 @@ const Nav = (props) => {
             ¡Super-Sale!
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/novedades" class="link">
             ¡Novedades!
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/contacto" class="link">
             ¡Contactanos!

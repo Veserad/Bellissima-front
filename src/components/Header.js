@@ -44,7 +44,7 @@ const Header = (props) => {
       <div className="logo">
         <img src="img/logo.png" alt="logo" />
         <h1>
-          <Link href="/">Bellissima</Link>
+          <Link to="/">Bellissima</Link>
         </h1>
       </div>
     </header>
