@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <BrowserRouter basename="/Bellissima-front">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
