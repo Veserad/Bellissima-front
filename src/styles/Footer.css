@@ -1,19 +1,21 @@
-.caja{
-    display: flex;
-    border-color: black;
-    border-top: solid;
-    border-width: 1px;
-}
-.footer{
-    background-color: grey;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-}
-.contacto{
-    background-color: pink;
-    justify-content: left;
-    font-family: 'Agbalumo', cursive;
+@media(min-width:1024px){
+
+    .caja{
+        display: flex;
+        border-color: black;
+        border-top: solid;
+        border-width: 1px;
+    }
+    .footer{
+        background-color: grey;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    .contacto{
+        background-color: pink;
+        justify-content: left;
+        font-family: 'Agbalumo', cursive;
 }
 .siguenos{
     background-color: pink;
@@ -24,4 +26,25 @@
 .direccion{
     background-color: pink;
     font-family: 'Agbalumo', cursive;
+}
+}
+
+@media(max-width:1023px){
+    .caja{
+        box-sizing: border-box !important;
+        width: 100%;
+        background-color: pink;
+    }
+    .contacto{
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Agbalumo', cursive;
+    }
+    .footer{
+        background-color: grey;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Agbalumo', cursive;
+    }
 }

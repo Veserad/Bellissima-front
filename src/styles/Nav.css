@@ -1,8 +1,12 @@
-.Nav{
+@media (min-width: 1024px) {
+  .menuMobile {
+    display: none;
+  }
+  .Nav {
     background-color: pink;
     border: 2px solid white;
-}
-.Nav ul{
+  }
+  .Nav ul {
     list-style: none;
     display: flex;
     max-width: 80%;
@@ -13,21 +17,137 @@
     font-style: italic;
     justify-content: space-between;
     align-items: center;
-}
-.Nav ul li{
+  }
+  .Nav ul li {
     flex-grow: 1;
-}
-.Nav ul li a{
+  }
+  .Nav ul li a {
     color: white;
     background-color: pink;
-}
-.Nav ul li a:hover{
+  }
+  .Nav ul li a:hover {
     color: rgb(209, 131, 144);
-}
-#dropdown-basic{
+  }
+  #dropdown-basic {
     background-color: pink;
     border: 0;
-}
-.dropdown:hover .dropdown-menu{
+  }
+  .dropdown:hover .dropdown-menu {
     display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .nav-pc {
+    display: none;
+  }
+  .menuMobile {
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed;
+    top: 50px;
+    z-index: 900; */
+    /* background-color: white; */
+    width: 100%;
+    background-color: pink;
+  }
+  .menuMobile a {
+    text-decoration: none !important;
+    color: white !important;
+  }
+  .menuMobileButtons {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    /* background-color: red; */
+    /* position: fixed;
+    right: 0; */
+    /* justify-content: flex-start; */
+  }
+  .logoMobile {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+  }
+  .logoMobile img {
+    max-block-size: 60px;
+    margin-left: 0 !important;
+  }
+  .logoMobile h1 {
+    font-family: "Agbalumo", cursive;
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    margin: 0;
+  }
+  .logoMobile h1 a {
+    -webkit-text-fill-color: black;
+    text-decoration: none;
+  }
+  .me2 {
+    display: flex;
+    align-items: center;
+  }
+  .offCanvas a {
+    color: white !important;
+  }
+  .offCanvas {
+    background-color: pink;
+    max-width: 80%;
+  }
+  .offcanvasContent {
+    background-color: pink;
+    width: 100%;
+  }
+  .coleccionButton {
+    background-color: pink;
+    color: white !important ;
+    text-decoration: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none;
+  }
+  .offcanvasLinks a,
+  .coleccionButton {
+    color: white !important;
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    text-decoration: none;
+  }
+  .menuFondo {
+    padding: 1rem;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 0px !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .menuFondo a {
+    color: white !important;
+    text-decoration: none;
+  }
+  .userMobile {
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  .coleccionInvisible {
+    display: none;
+    justify-content: space-evenly;
+  }
+  .coleccionVisible {
+    /* background-color: grey; */
+  }
+  .menuMobile.scrolled {
+    top: 0;
+  }
 }

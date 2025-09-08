@@ -28,7 +28,7 @@ const Header = (props) => {
           style={{ color: "#16ca43" }}
         />
       </div>
-      <div className="boton">
+      <div className="boton botonMobile">
         <button type="submit" className="btn btn-outline-danger btn-lg">
           <a
             href="http://localhost:3000/admin/novedades"
@@ -42,7 +42,7 @@ const Header = (props) => {
         </button>
       </div>
       <div className="logo">
-        <img src="img/logo.png" alt="logo" />
+        <img src="./img/logo.png" alt="logo" />
         <h1>
           <Link to="/">Bellissima</Link>
         </h1>

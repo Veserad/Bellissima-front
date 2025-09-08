@@ -1,44 +1,56 @@
-.descuento{
-    background-color: black;
-    color: white;
-    margin: 0;
-    font-style: italic;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.descuento {
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-style: italic;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.logo img{
-    max-block-size:150px;
-}
-.logo h1{
-    font-family: 'Agbalumo', cursive;
+@media (min-width: 1024px) {
+  .logo img {
+    max-block-size: 150px;
+  }
+  .logo h1 {
+    font-family: "Agbalumo", cursive;
     display: inline-block;
     position: relative;
     font-size: 60px;
     margin: 0;
-    /* color: rgb(156, 26, 145); */
-}
-.logo h1 a{
+  }
+  .logo h1 a {
     -webkit-text-fill-color: black;
     text-decoration: none;
-}
-.logo{
+  }
+  .logo {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-}
-.boton{
+  }
+  .boton {
     display: flex;
     justify-content: right;
     flex: end;
-    font-family: 'Agbalumo', cursive;
-}
-.boton h3{
+    font-family: "Agbalumo", cursive;
+  }
+  .boton h3 {
     -webkit-text-fill-color: pink !important;
     display: block;
-}
-.boton a{
+  }
+  .boton a {
     text-decoration: none;
+  }
+}
+@media (max-width: 1023px) {
+    .logo{
+        display: none !important;
+    }
+    .boton{
+        display: none !important;
+    }
+    .descuento {
+        font-size: 14px;
+    }
 }
