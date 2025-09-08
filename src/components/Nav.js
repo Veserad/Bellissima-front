@@ -219,6 +219,7 @@ const Nav = (props) => {
                   <a
                     href="http://localhost:3000/admin/novedades"
                     target="_blank"
+                    rel="noopener noreferrer"
                     onClick={() => setShowSecond(false)}
                   >
                     Iniciar Sesión
