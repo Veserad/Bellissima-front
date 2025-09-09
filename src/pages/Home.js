@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
-import "../styles/Home.css";
+import "../styles/Catalogo.css";
 
 const Home = (props) => {
   return (
@@ -44,7 +44,7 @@ const Home = (props) => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="catalogos">
+      <div className="catalogo">
         <Card className="Card" style={{ maxWidth: "45%" }}>
           <Card.Img variant="top" src="img/pri-ver/blusa1.jpg" />
           <Card.Body>
