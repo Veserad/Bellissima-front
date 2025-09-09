@@ -5,7 +5,12 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    // delay para mobile Safari/Chrome
+    const timer = setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }, 50); // 50ms suele ser suficiente
+
+    return () => clearTimeout(timer);
   }, [pathname]);
 
   return null;
