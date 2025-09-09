@@ -1,12 +1,12 @@
 @media (min-width: 1024px) {
-  .catalogo-home{
-    display: none;
-  }
   .catalogo {
     display: flex;
     flex-wrap: wrap;
     background-color: PINK;
     justify-content: space-around;
+  }
+  .catalogo-home{
+    display: none;
   }
 
   .Card {
