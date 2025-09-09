@@ -1,0 +1,46 @@
+@media (max-width: 1023px) {
+  body {
+    background-color: pink;
+  }
+  .catalogoHome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+  .catalogoHome a {
+    width: 45%;
+    text-decoration: none;
+  }
+  .Card {
+    margin-bottom: 40px;
+    /* width: 45% !important; */
+    height: 600px;
+    display: flex;
+    flex-direction: column; /* apila verticalmente */
+    justify-content: space-between; /* empuja el contenido al fondo */
+    height: 100%; /* asegura que ocupe el alto definido */
+  }
+  .tarjeta {
+    -webkit-text-fill-color: black;
+    font-family: "Agbalumo", cursive;
+  }
+  .listGroupFlush {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.5px pink;
+    font-size: 20px;
+  }
+  .comprar {
+    background-color: black;
+    font-family: "Agbalumo", cursive;
+    -webkit-text-fill-color: white;
+  }
+  .title {
+    max-height: 50px !important;
+    position: sticky;
+    bottom: 0;
+  }
+}

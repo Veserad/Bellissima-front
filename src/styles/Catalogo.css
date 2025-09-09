@@ -108,7 +108,7 @@
         flex-wrap: wrap;
         gap: 20px;
         background-color: PINK;
-        
+        justify-content: space-around;
     }
     
     .Card {

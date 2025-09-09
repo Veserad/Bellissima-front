@@ -42,7 +42,7 @@ const Header = (props) => {
         </button>
       </div>
       <div className="logo">
-        <img src="./img/logo.png" alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" />
         <h1>
           <Link to="/">Bellissima</Link>
         </h1>

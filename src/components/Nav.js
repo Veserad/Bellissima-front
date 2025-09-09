@@ -24,10 +24,10 @@ const Nav = (props) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="Nav holder">
-      <div className={`menuMobile ${scrolled ? scrolled : ""}`}>
+    <div className={`Nav holder ${scrolled ? "scrolled" : ""}`}>
+      <div className={`menuMobile ${scrolled ? "scrolled" : ""}`}>
         <div className="logoMobile">
-          <img src="./img/logo.png" alt="logo" />
+          <img src={`${process.env.PUBLIC_URL}/img/logo.png`} alt="logo" />
           <h1>
             <Link to="/">Bellissima</Link>
           </h1>
@@ -230,7 +230,7 @@ const Nav = (props) => {
           </div>
         </OffCanvas>
       </div>
-      <ul className="nav-pc">
+      <ul className={`nav-pc ${scrolled ? "scrolled" : ""}`}>
         <li>
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">

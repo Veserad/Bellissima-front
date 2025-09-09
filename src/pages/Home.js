@@ -3,11 +3,11 @@ import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { Link } from "react-router-dom";
-import "../styles/Catalogo.css";
+import styles from "../styles/Home.module.css";
 
 const Home = (props) => {
   return (
-    <div className="home">
+    <div className={styles.home}>
       <Carousel>
         <Carousel.Item>
           {/* <ExampleCarouselImage text="First slide" /> */}
@@ -39,127 +39,76 @@ const Home = (props) => {
             width="100%"
             alt="tarjetas"
           />
-          <Carousel.Caption className="tarjeta">
+          <Carousel.Caption className={styles.tarjeta}>
             <h3>¡Aceptamos todas las tarjetas!</h3>
             <p>Promociones exclusivas y hasta 12 cuotas sin interés</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="catalogo-home catalogo">
+
+      <div className={styles.catalogoHome}>
         <Link to={"/blusas"}>
-          <Card className="Card" style={{ maxWidth: "45%" }}>
+          <Card className={styles.Card}>
             <Card.Img
               variant="top"
               src={`${process.env.PUBLIC_URL}/img/pri-ver/blusa1.jpg`}
             />
-            <Card.Body>
+            <Card.Body className={styles.title}>
               <Card.Title>Blusas</Card.Title>
-              <Card.Text>$10.000</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup className={styles.listGroupFlush}>
               <ListGroup.Item>Varios talles</ListGroup.Item>
               <ListGroup.Item>Distintos colores</ListGroup.Item>
               <ListGroup.Item>Tela a elección</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <button
-                className="comprar"
-                onClick={() => {
-                  alert(
-                    "Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito"
-                  );
-                }}
-              >
-                Añadir al carrito
-              </button>
-            </Card.Body>
           </Card>
         </Link>
         <Link to={"/abrigos"}>
-          <Card className="Card" style={{ maxWidth: "45%" }}>
+          <Card className={styles.Card}>
             <Card.Img
               variant="top"
               src={`${process.env.PUBLIC_URL}/img/ot-in/abrigo1.jpg`}
             />
-            <Card.Body>
+            <Card.Body className={styles.title}>
               <Card.Title>Abrigos</Card.Title>
-              <Card.Text>$10.000</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup className={styles.listGroupFlush}>
               <ListGroup.Item>Varios talles</ListGroup.Item>
               <ListGroup.Item>Distintos colores</ListGroup.Item>
               <ListGroup.Item>Tela a elección</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <button
-                className="comprar"
-                onClick={() => {
-                  alert(
-                    "Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito"
-                  );
-                }}
-              >
-                Añadir al carrito
-              </button>
-            </Card.Body>
           </Card>
         </Link>
         <Link to={"/accesorios"}>
-          <Card className="Card" style={{ maxWidth: "45%" }}>
+          <Card className={styles.Card}>
             <Card.Img
               variant="top"
               src={`${process.env.PUBLIC_URL}/img/accesorios/vincha.jpg`}
             />
-            <Card.Body>
+            <Card.Body className={styles.title}>
               <Card.Title>Accesorios</Card.Title>
-              <Card.Text>$10.000</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup className={styles.listGroupFlush}>
               <ListGroup.Item>Varios talles</ListGroup.Item>
               <ListGroup.Item>Distintos colores</ListGroup.Item>
               <ListGroup.Item>Tela a elección</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <button
-                className="comprar"
-                onClick={() => {
-                  alert(
-                    "Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito"
-                  );
-                }}
-              >
-                Añadir al carrito
-              </button>
-            </Card.Body>
           </Card>
         </Link>
         <Link to={"/outlet"}>
-          <Card className="Card" style={{ maxWidth: "45%" }}>
+          <Card className={styles.Card}>
             <Card.Img
               variant="top"
               src={`${process.env.PUBLIC_URL}/img/outlet/cartera.jpg`}
             />
-            <Card.Body>
+            <Card.Body className={styles.title}>
               <Card.Title>Outlets</Card.Title>
-              <Card.Text>$10.000</Card.Text>
             </Card.Body>
-            <ListGroup className="list-group-flush">
+            <ListGroup className={styles.listGroupFlush}>
               <ListGroup.Item>Varios talles</ListGroup.Item>
               <ListGroup.Item>Distintos colores</ListGroup.Item>
               <ListGroup.Item>Tela a elección</ListGroup.Item>
             </ListGroup>
-            <Card.Body>
-              <button
-                className="comprar"
-                onClick={() => {
-                  alert(
-                    "Debes iniciar sesión para poder comprar y/o añadir productos a tu carrito"
-                  );
-                }}
-              >
-                Añadir al carrito
-              </button>
-            </Card.Body>
           </Card>
         </Link>
       </div>

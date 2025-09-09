@@ -5,6 +5,10 @@
   .Nav {
     background-color: pink;
     border: 2px solid white;
+    width: 100%;
+    position: fixed;
+    top: 248px;
+    z-index: 900;
   }
   .Nav ul {
     list-style: none;
@@ -35,6 +39,9 @@
   .dropdown:hover .dropdown-menu {
     display: block;
   }
+  .Nav.scrolled{
+    top: 0;
+  }
 }
 
 @media (max-width: 1023px) {
@@ -44,10 +51,9 @@
   .menuMobile {
     display: flex;
     justify-content: space-between;
-    /* position: fixed;
-    top: 50px;
-    z-index: 900; */
-    /* background-color: white; */
+    position: fixed;
+    top: 35px;
+    z-index: 900;
     width: 100%;
     background-color: pink;
   }
