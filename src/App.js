@@ -24,6 +24,7 @@ import Polleras from "./pages/pri-ver/Polleras";
 import Vestidos from "./pages/pri-ver/Vestidos";
 import NovedadesPage from "./pages/NovedadesPage";
 import Contacto from "./pages/Contacto";
+import ScrollToTop from "./components/ScrollToTop";
 
 import "./App.css";
 
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter basename="/Bellissima-front">
+        <ScrollToTop />
         <Header />
         <Nav />
         <Routes>
