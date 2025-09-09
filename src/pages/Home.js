@@ -11,7 +11,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="First slide" /> */}
           <img
-            src="./img/index/banner1.png"
+            src="img/index/banner1.png"
             height="100%"
             width="100%"
             alt="sale"
@@ -24,7 +24,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="Second slide" /> */}
           <img
-            src="./img/index/banner2.png"
+            src="img/index/banner2.png"
             height="100%"
             width="100%"
             alt="70off"
@@ -33,7 +33,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="Third slide" /> */}
           <img
-            src="./img/index/banner3.png"
+            src="img/index/banner3.png"
             height="100%"
             width="100%"
             alt="tarjetas"
@@ -44,7 +44,7 @@ const Home = (props) => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div className="catalogo">
+      <div className="catalogo-home catalogo">
         <Card className="Card" style={{ maxWidth: "45%" }}>
           <Card.Img variant="top" src="img/pri-ver/blusa1.jpg" />
           <Card.Body>
