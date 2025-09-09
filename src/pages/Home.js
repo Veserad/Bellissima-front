@@ -12,7 +12,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="First slide" /> */}
           <img
-            src={`${process.env.PUBLIC_URL}img/index/banner1.png`}
+            src={`${process.env.PUBLIC_URL}/img/index/banner1.png`}
             height="100%"
             width="100%"
             alt="sale"
@@ -25,7 +25,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="Second slide" /> */}
           <img
-            src={`${process.env.PUBLIC_URL}img/index/banner2.png`}
+            src={`${process.env.PUBLIC_URL}/img/index/banner2.png`}
             height="100%"
             width="100%"
             alt="70off"
@@ -34,7 +34,7 @@ const Home = (props) => {
         <Carousel.Item>
           {/* <ExampleCarouselImage text="Third slide" /> */}
           <img
-            src={`${process.env.PUBLIC_URL}img/index/banner3.png`}
+            src={`${process.env.PUBLIC_URL}/img/index/banner3.png`}
             height="100%"
             width="100%"
             alt="tarjetas"
@@ -50,7 +50,7 @@ const Home = (props) => {
           <Card className="Card" style={{ maxWidth: "45%" }}>
             <Card.Img
               variant="top"
-              src={`${process.env.PUBLIC_URL}img/pri-ver/blusa1.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/pri-ver/blusa1.jpg`}
             />
             <Card.Body>
               <Card.Title>Blusas</Card.Title>
@@ -79,7 +79,7 @@ const Home = (props) => {
           <Card className="Card" style={{ maxWidth: "45%" }}>
             <Card.Img
               variant="top"
-              src={`${process.env.PUBLIC_URL}img/ot-in/abrigo1.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/ot-in/abrigo1.jpg`}
             />
             <Card.Body>
               <Card.Title>Abrigos</Card.Title>
@@ -108,7 +108,7 @@ const Home = (props) => {
           <Card className="Card" style={{ maxWidth: "45%" }}>
             <Card.Img
               variant="top"
-              src={`${process.env.PUBLIC_URL}img/accesorios/vincha.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/accesorios/vincha.jpg`}
             />
             <Card.Body>
               <Card.Title>Accesorios</Card.Title>
@@ -137,7 +137,7 @@ const Home = (props) => {
           <Card className="Card" style={{ maxWidth: "45%" }}>
             <Card.Img
               variant="top"
-              src={`${process.env.PUBLIC_URL}img/outlet/cartera.jpg`}
+              src={`${process.env.PUBLIC_URL}/img/outlet/cartera.jpg`}
             />
             <Card.Body>
               <Card.Title>Outlets</Card.Title>
